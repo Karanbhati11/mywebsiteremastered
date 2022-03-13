@@ -1,0 +1,669 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-around;
+    background-color: rgba(103, 143, 139, 1);
+}
+
+.text_items {
+    color: black;
+}
+
+.heading {
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    height: max-content;
+    align-self: center;
+    text-transform: capitalize;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+}
+
+
+.card_holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+
+    height: 400px;
+    width: 320px;
+    background-color: white;
+    margin: 8px;
+    border-radius: 3px;
+
+}
+
+.flex_container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #17141d;
+    height: 450px;
+    width: 400px;
+    border-radius: 15px;
+    margin: 10px;
+    margin-top: -40px;
+    transition: 0.3s ease-in-out;
+    color: #17141d;
+}
+
+
+
+.text {
+    text-align: center;
+    justify-content: center;
+    padding: 70px;
+    margin-top: 10px;
+    font-size: larger;
+    transition: 0.5 ease-in;
+    position: relative;
+}
+
+
+.headingcard {
+    color: white;
+    font-size: larger;
+    text-align: center;
+    justify-content: justify;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+#card3 {
+    transition: 0.3s;
+}
+
+
+
+
+
+#card2 {
+    transition: 0.3s;
+
+}
+
+
+
+
+
+
+#card1 {
+    transition: 0.3s;
+}
+
+#card1::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(20, 140, 220);
+    border-radius: 20px;
+    height: 5px;
+    transition: 0.3s;
+    left: 0;
+    bottom: -10px;
+    margin-left: 90px;
+    width: 0%;
+}
+
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text-items {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    color: rgb(255, 255, 255);
+    flex-direction: row;
+    margin: 5px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.skill1 {
+    width: 70%;
+    align-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-left: 8px;
+    position: relative;
+}
+
+.skill1::before {
+    content: " ";
+    height: 10px;
+    margin-top: 5px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #249b9b;
+    width: 70%;
+    margin-left: 95px;
+}
+
+
+.skill1::after {
+    content: " ";
+    height: 10px;
+    margin-top: 5px;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 15px;
+}
+
+
+
+.skill2 {
+    width: 70%;
+    align-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-left: 8px;
+    position: relative;
+}
+
+.skill2::before {
+    content: " ";
+    height: 10px;
+    margin-top: 5px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #249b9b;
+    width: 70%;
+    margin-left: 95px;
+}
+
+
+.skill2::after {
+    content: " ";
+    height: 10px;
+    margin-top: 5px;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 15px;
+}
+
+
+.skill3 {
+    width: 70%;
+    align-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-left: 8px;
+    position: relative;
+}
+
+.skill3::before {
+    content: " ";
+    height: 10px;
+    margin-top: 5px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #249b9b;
+    width: 70%;
+    margin-left: 105px;
+}
+
+
+.skill3::after {
+    content: " ";
+    height: 10px;
+    margin-top: 5px;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 15px;
+}
+
+
+
+.skill4 {
+    width: 70%;
+    align-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-left: 8px;
+    position: relative;
+}
+
+.skill4::before {
+    content: " ";
+    height: 10px;
+    margin-top: 5px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #249b9b;
+    width: 70%;
+    margin-left: 95px;
+}
+
+
+
+.skill4::after {
+    content: " ";
+    height: 10px;
+    margin-top: 5px;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 15px;
+}
+
+
+
+.skill5 {
+    width: 70%;
+    align-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-left: 8px;
+    position: relative;
+}
+
+.skill5::before {
+    content: " ";
+    height: 10px;
+    margin-top: 5px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #249b9b;
+    width: 70%;
+    margin-left: 95px;
+}
+
+
+.skill5::after {
+    content: " ";
+    height: 10px;
+    margin-top: 5px;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 15px;
+}
+
+
+.skill6 {
+    width: 70%;
+    align-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-left: 8px;
+    position: relative;
+}
+
+.skill6::before {
+    content: " ";
+    height: 10px;
+    margin-top: 5px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #249b9b;
+    width: 70%;
+    margin-left: 95px;
+}
+
+
+
+.skill6::after {
+    content: " ";
+    height: 10px;
+    margin-top: 5px;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 15px;
+}
+
+
+
+@media all and (max-width: 900px) {
+
+    .about_container {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        width: 80%;
+        justify-content: space-evenly;
+        background-color: rgba(103, 143, 139, 1);
+    }
+
+    .about_heading {
+        /* display: none; */
+        border: none;
+    }
+
+
+
+    .card_holder {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+
+
+    }
+
+
+    .heading {
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        height: max-content;
+        align-self: center;
+        margin-top: 50px;
+        text-transform: capitalize;
+        border: 2px solid rgb(238, 238, 238);
+        padding: 10px;
+    }
+
+
+    .flex_container {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background-color: #17141d;
+        width: 85%;
+        height: 160px;
+        margin-top: 0;
+        margin-bottom: 5px;
+        border-radius: 3px;
+    }
+
+
+    .text {
+        text-align: center;
+        justify-content: center;
+        padding: 70px;
+        margin-top: 10px;
+        font-size: small;
+        transition: 0.5 ease-in;
+        position: relative;
+    }
+
+    .headingcard {
+        color: white;
+        font-size: small;
+        text-align: center;
+        justify-content: justify;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+
+    #card3 {
+        transition: 0.3s;
+    }
+
+
+    #card2 {
+        transition: 0.3s;
+
+    }
+
+
+
+
+    #card1 {
+        transition: 0.3s;
+    }
+
+
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        height: 350px;
+        width: 400px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .text-items {
+        width: 90%;
+        height: 12%;
+        display: flex;
+        color: rgb(255, 255, 255);
+        flex-direction: row;
+        font-size: smaller;
+        margin-top: 1px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .skill1 {
+        width: 20%;
+        align-self: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+        margin-left: 0;
+        font-size: smaller;
+        position: relative;
+    }
+
+    .skill1::before {
+        content: " ";
+        height: 5px;
+        margin-top: 5px;
+        position: absolute;
+        border-radius: 10px;
+        background-color: #249b9b;
+        width: 100%;
+        margin-left: 47px;
+    }
+
+    .skill1::after {
+        content: " ";
+        height: 5px;
+        margin-top: 5px;
+        background-color: #ffffff;
+        position: absolute;
+        border-radius: 10px;
+        width: 80%;
+        margin-left: 3px;
+    }
+
+    .skill2 {
+        width: 20%;
+        align-self: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+        margin-left: 4px;
+        font-size: smaller;
+        position: relative;
+    }
+
+    .skill2::before {
+        content: " ";
+        height: 5px;
+        margin-top: 5px;
+        position: absolute;
+        border-radius: 10px;
+        background-color: #249b9b;
+        width: 100%;
+        margin-left: 47px;
+    }
+
+    .skill2::after {
+        content: " ";
+        height: 5px;
+        margin-top: 5px;
+        background-color: #ffffff;
+        position: absolute;
+        border-radius: 10px;
+        width: 80%;
+        margin-left: 3px;
+    }
+
+    .skill3 {
+        width: 20%;
+        align-self: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+        margin-left: 4px;
+        font-size: smaller;
+        position: relative;
+    }
+
+    .skill3::before {
+        content: " ";
+        height: 5px;
+        margin-top: 5px;
+        position: absolute;
+        border-radius: 10px;
+        background-color: #249b9b;
+        width: 100%;
+        margin-left: 80px;
+    }
+
+    .skill3::after {
+        content: " ";
+        height: 5px;
+        margin-top: 5px;
+        background-color: #ffffff;
+        position: absolute;
+        border-radius: 10px;
+        width: 80%;
+        margin-left: 5px;
+    }
+
+    .skill4 {
+        width: 20%;
+        align-self: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+        margin-left: 4px;
+        font-size: smaller;
+        position: relative;
+    }
+
+    .skill4::before {
+        content: " ";
+        height: 5px;
+        margin-top: 5px;
+        position: absolute;
+        border-radius: 10px;
+        background-color: #249b9b;
+        width: 100%;
+        margin-left: 47px;
+    }
+
+    .skill4::after {
+        content: " ";
+        height: 5px;
+        margin-top: 8px;
+        background-color: #ffffff;
+        position: absolute;
+        border-radius: 10px;
+        width: 80%;
+        margin-left: 3px;
+    }
+
+    .skill5 {
+        width: 20%;
+        align-self: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+        margin-left: 4px;
+        font-size: smaller;
+        position: relative;
+    }
+
+    .skill5::before {
+        content: " ";
+        height: 5px;
+        margin-top: 8px;
+        position: absolute;
+        border-radius: 10px;
+        background-color: #249b9b;
+        width: 100%;
+        margin-left: 47px;
+    }
+
+    .skill5::after {
+        content: " ";
+        height: 5px;
+        margin-top: 8px;
+        background-color: #ffffff;
+        position: absolute;
+        border-radius: 10px;
+        width: 80%;
+        margin-left: 3px;
+    }
+
+    .skill6 {
+        width: 20%;
+        align-self: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+        margin-left: 4px;
+        font-size: smaller;
+        position: relative;
+    }
+
+    .skill6::before {
+        content: " ";
+        height: 5px;
+        margin-top: 8px;
+        position: absolute;
+        border-radius: 10px;
+        background-color: #249b9b;
+        width: 100%;
+        margin-left: 47px;
+    }
+
+    .skill6::after {
+        content: " ";
+        height: 5px;
+        margin-top: 8px;
+        background-color: #ffffff;
+        position: absolute;
+        border-radius: 10px;
+        width: 80%;
+        margin-left: 3px;
+    }
+}

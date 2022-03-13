@@ -1,0 +1,192 @@
+ @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+
+ .icons:hover {
+     color: rgb(37, 157, 179);
+     transition: 0.2s
+ }
+
+
+ @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Montserrat', sans-serif;
+ }
+
+ nav {
+     background: #ffffff;
+     position: fixed;
+     width: 100%;
+     z-index: 99999;
+ }
+
+ nav ul {
+     list-style: none;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     padding-right: 200px;
+     box-shadow: 2px 2px 2px 2px #ccc;
+     margin-bottom: 0;
+
+
+ }
+
+ nav ul li {
+     padding: 15px 0;
+     cursor: pointer;
+
+ }
+
+ nav ul li.items {
+     position: relative;
+     width: auto;
+     margin: 0 16px;
+     text-align: center;
+     order: 3;
+ }
+
+ nav ul li.items:after {
+     position: absolute;
+     content: '';
+     left: 0;
+     bottom: 5px;
+     height: 2px;
+     width: 100%;
+     background: #33ffff;
+     opacity: 0;
+     transition: all 0.2s linear;
+ }
+
+ nav ul li.icons:before {
+     position: absolute;
+     content: '';
+     left: 0;
+     bottom: 5px;
+     height: 2px;
+     width: 0%;
+     background: #33ffff;
+     opacity: 0;
+     transition: all 0.2s linear;
+ }
+
+ nav ul li.icons:after {
+     position: absolute;
+     content: '';
+     left: 0;
+     bottom: 5px;
+     height: 2px;
+     width: 0%;
+     background: #0b0e0e;
+     opacity: 0;
+     transition: all 0.2s linear;
+ }
+
+
+
+ nav ul li.items:hover:after {
+     opacity: 1;
+     bottom: 8px;
+ }
+
+ nav ul li.logo {
+     flex: 1;
+     color: rgb(2, 2, 2);
+     font-size: 23px;
+     font-weight: 600;
+     cursor: default;
+     padding-left: 200px;
+     user-select: none;
+ }
+
+ nav ul li a {
+     color: rgb(0, 0, 0);
+     font-size: 18px;
+     font-weight: 500;
+     text-decoration: none;
+     transition: .4s;
+ }
+
+ nav ul li:hover a {
+     color: rgb(3, 14, 14);
+ }
+
+ nav ul li i {
+     font-size: 23px;
+ }
+
+ nav ul li.btn {
+     display: none;
+ }
+
+
+ nav ul li.btn.hide i:before {
+     content: '\f00d';
+ }
+
+ .bm-burger-bars {
+     background: #373a47;
+ }
+
+ @media all and (max-width: 900px) {
+
+
+
+     nav ul {
+         list-style: none;
+         display: flex;
+         flex-wrap: wrap;
+         align-items: center;
+         justify-content: center;
+         box-shadow: 2px 2px 2px 2px #ccc;
+         padding-right: 0%;
+         margin-bottom: 0;
+     }
+
+     nav ul li.logo {
+         flex: 1;
+         color: rgb(2, 2, 2);
+         font-size: 23px;
+         font-weight: 600;
+         cursor: default;
+         padding-left: 50px;
+         user-select: none;
+     }
+
+     nav ul li a {
+         width: 100vw;
+     }
+
+     nav ul li.items {
+         width: 100%;
+         display: none;
+     }
+
+     nav ul li.items.show {
+         display: block;
+         padding: none;
+     }
+
+     nav ul li.btn {
+         display: block;
+
+     }
+
+     nav ul li.items:hover {
+         border-radius: 5px;
+         box-shadow: inset 0 0 5px #33ffff,
+             inset 0 0 10px #66ffff;
+     }
+
+     nav ul li.items:hover:after {
+         opacity: 0;
+     }
+
+     .my_btn {
+         padding-right: 20px
+     }
+ }
